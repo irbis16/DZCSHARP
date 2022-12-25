@@ -11,4 +11,6 @@ foreach (var item in arrayS)
 }
 Console.Write($" --> ");
 for (int i = 0; i < arrayS.Length; i++)
-    Console.Write($"\n{arrayS[i].Length}=> {arrayS[i]}\n");
+    //Console.Write($"\n{arrayS[i].Length}=> {arrayS[i]}\n");
+    if (arrayS[i].Length < 4)
+        Console.Write($" {arrayS[i]} | ");
