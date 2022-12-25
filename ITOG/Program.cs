@@ -9,3 +9,6 @@ foreach (var item in arrayS)
 {
     Console.Write($"{item} | ");
 }
+Console.Write($" --> ");
+for (int i = 0; i < arrayS.Length; i++)
+    Console.Write($"\n{arrayS[i].Length}=> {arrayS[i]}\n");
